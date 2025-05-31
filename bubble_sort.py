@@ -1,4 +1,4 @@
-lista = [4, 9, 2, 1, 7, 8]
+# bubble sort, ordenação por flutuação
 
 def bubble_sort(lista):
     n = len(lista)

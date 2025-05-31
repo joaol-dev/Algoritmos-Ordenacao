@@ -1,5 +1,4 @@
-
-
+# selection sort, ordenação por seleção 
 
 def selection_sort(lista):
     n = len(lista)
