@@ -11,3 +11,5 @@ def insertion_sort(lista):
         lista[j + 1] = chave
 
 lista = [5, 8, 2, 9, 3, 10]
+insertion_sort(lista)
+print(lista)
