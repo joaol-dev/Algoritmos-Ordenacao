@@ -20,10 +20,14 @@ def heap_sort(lista):
     for i in range (n // 2 - 1, - 1, - 1):
         heapify(lista, n, i)
 
-    for i in range (2 - 1, 0, -1):
+    for i in range (n - 1, 0, -1):
         lista[i], lista[0] = lista[0], lista[i]
         heapify(lista, i, 0)
 
 lista = [4, 7, 2, 6, 4, 1, 8, 3]
 heap_sort(lista)
 print(lista)
+
+lista_invertida = [9,8,7,6,5,4,3,2,1,0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10]
+heap_sort(lista_invertida)
+print(lista_invertida)
