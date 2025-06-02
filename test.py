@@ -6,7 +6,7 @@ from merge_sort import merge_sort
 from insertion_sort import insertion_sort
 from heap_sort import heap_sort
 from counting_sort import counting_sort
-
+from radix_sort import radix_sort
 
 any_numbers = random.sample(range(1, 1000), 42)
 
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     for name, lista in test_cases.items():
         print("\nCaso de teste: {}".format(name))
         print(lista)
-        counting_sort(lista)
+        radix_sort(lista)
         print("\n Ordenado:")
         print(lista)
     print("*******************************")
