@@ -10,6 +10,10 @@ Desvantagens:
 - Ineficiente para listas grandes (complexidade O(n²))
 - Realiza muitas comparações e trocas
 - Pouco prático - Não é usado em aplicações reais com muitos dados
+
+Uso recomendado:
+- Geralmente é usado para fins educacionais, pois é fácil de entender e de implementar
+
 """
 
 def bubble_sort(lista):

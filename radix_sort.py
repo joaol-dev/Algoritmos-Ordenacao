@@ -42,7 +42,7 @@ def countingSortPorDigito(lista, exp):
         lista[i] = output[i]
 
 # Função principal do Radix Sort
-def radixSort(lista):
+def radix_sort(lista):
     max_val = max(lista)     # Encontra o maior número na lista (para saber o número de dígitos)
 
     exp = 1         # Representa a posição do dígito (1 = unidade, 10 = dezena, 100 = centena, etc.)
