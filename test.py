@@ -7,6 +7,7 @@ from insertion_sort import insertion_sort
 from heap_sort import heap_sort
 from counting_sort import counting_sort
 from radix_sort import radix_sort
+from bucket_sort import bucket_sort
 
 any_numbers = random.sample(range(1, 1000), 42)
 
@@ -28,7 +29,15 @@ if __name__ == "__main__":
     for name, lista in test_cases.items():
         print("\nCaso de teste: {}".format(name))
         print(lista)
-        radix_sort(lista)
+        selection_sort(lista)
         print("\n Ordenado:")
         print(lista)
     print("*******************************")
+
+#  teste apenas do bucket sort
+
+print("\nTeste exclusivo bucket sort")
+bucketlista = [0.42, 0.32, 0.23, 0.52, 0.25, 0.47, 0.51]
+print("\nLista original:", bucketlista)
+bucket_sort(bucketlista)
+print("\nLista ordenada:", bucketlista)

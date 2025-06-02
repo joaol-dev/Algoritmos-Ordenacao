@@ -17,7 +17,7 @@ Uso recomendado:
 
 """
 
-def bucketSort(lista):
+def bucket_sort(lista):
     n = len(lista)      # Tamanho da lista
 
     if n == 0:          # Se a lista estiver vazia, não há o que ordenar
